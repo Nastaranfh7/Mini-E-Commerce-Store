@@ -13,6 +13,7 @@ export function addToCart(product) {
 }
 
 export function removeFromCart(productId) {
+  // به جای تغییر مرجع cart، محتویاتش رو تغییر می‌دیم
   cart = cart.filter(item => item.id !== productId);
   saveCartToLocalStorage();
 }

@@ -1,3 +1,4 @@
+// ui.js
 import { cart, removeFromCart } from './cart.js';
 
 export function updateCartCount() {

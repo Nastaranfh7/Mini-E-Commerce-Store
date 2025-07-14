@@ -1,5 +1,6 @@
+// main.js
 import { products } from './products.js';
-import { addToCart, saveCartToLocalStorage } from './cart.js';
+import { addToCart } from './cart.js';
 import { renderCart, updateCartCount, setupThemeToggle } from './ui.js';
 
 const productList = document.getElementById('product-list');
@@ -56,6 +57,7 @@ searchInput.addEventListener('input', () => {
   renderProducts();
 });
 
+// اجرای اولیه
 renderProducts();
 renderCart();
 updateCartCount();
