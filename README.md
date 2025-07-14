@@ -69,6 +69,6 @@ product.category === activeCategory;
 
 🧠 Created by Nastaran Fazli Haravi
 Feel free to fork, customize, or contribute 💙
-GitHub Profile
+GitHub Profile: https://github.com/Nastaranfh7
 
 
