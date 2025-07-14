@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>فروشگاه نسترن</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🛍 فروشگاه نسترن</h1>
+    <button id="theme-toggle">🌙 دارک مود</button>
+    <span id="cart-count">Cart: 0 items</span>
+  </header>
+
+  <section id="filters">
+    <button data-category="all" class="active">همه</button>
+    <button data-category="Electronics">الکترونیکی</button>
+    <button data-category="Fashion">پوشاک</button>
+    <button data-category="Home">خانگی</button>
+  </section>
+
+  <input type="text" id="search-input" placeholder="جستجوی محصول..." />
+
+  <section id="product-list" class="products"></section>
+
+  <section class="cart">
+    <h2>🧺 سبد خرید</h2>
+    <div id="cart-items"></div>
+    <p id="empty-message">سبد خرید شما خالی است.</p>
+    <p id="total-price">قیمت کل: ۰ دلار</p>
+  </section>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
