@@ -2,8 +2,10 @@
 
 ---
 
-🔗 **Live Demo:**  
-[Check it out here](https://your-live-demo-link.com)
+## 🚀 Live Demo
+
+Check it out 👉 [Live Demo](https://nastaranfh7.github.io/Mini-E-Commerce-Store/)
+
 
 ---
 
